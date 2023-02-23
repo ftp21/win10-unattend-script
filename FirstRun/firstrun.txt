@@ -1,0 +1,7 @@
+<FirstLogonCommands>
+				<SynchronousCommand wcm:action="add">
+					<Order>1</Order>
+					<Description>Run FirstRun.cmd</Description>
+					<CommandLine>%WINDIR%\Setup\Scripts\FirstRun.cmd</CommandLine>
+				</SynchronousCommand>
+			</FirstLogonCommands>
